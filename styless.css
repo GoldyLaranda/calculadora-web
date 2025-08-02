@@ -1,0 +1,62 @@
+/* Estructura principal */
+main {
+    text-align: center;
+}
+#calculadora {
+    display: flex;
+    justify-content: center;
+}
+
+/* Formulario */
+#formulario {
+
+    width: 50%;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+/* Inputs de números */
+.numeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+#valor1,
+#valor2 {
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+/* Botones */
+#botones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.button {
+    width: 150px;
+    background-color: #3374ff;
+    color: #fff;
+    border-color: #3374ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 40px;
+    color: #FF5733;
+    font-size: 40px;
+}
+#botones {
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: max-content; /* Se ajusta al contenido */
+}
